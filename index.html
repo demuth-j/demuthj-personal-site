@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob | Developer Portfolio</title>
+    <title>Jacob DeMuth | Portfolio</title>
+    <!-- CSS -->
     <style>
         :root {
             --bg-color: #0d1117;
@@ -142,85 +143,241 @@
 </head>
 <body>
 
+    <!-- Header part of the page -->
     <header>
-        <h1>Jacob</h1>
-        <p>Software Engineer | Game Developer | Systems Integrator</p>
+        <h1>Jacob DeMuth</h1>
+        <p> DevOps Engineer | AI & Software Engineer | Game Developer </p>
     </header>
 
+    <!-- Main content -->
     <div class="container">
-        
         <section id="about">
+            <!-- About me -->
             <h2>About Me</h2>
-            <p>I am a developer focused on building robust systems, from full-stack web applications to interactive 3D mechanics and local infrastructure. Because much of my work is private, this portfolio serves as a showcase of my architecture design, problem-solving methodologies, and technical stack.</p>
+            <p>
+                I am a full time DevOps Engineer with passion for machine learning and game development.
+                I have plenty of expertise with cloud technologies such as Azure and AWS as well as coding languages such as Terraform and Bash
+                I have a master's degree in information technology and a published paper based on my capstone project.
+                Whether it be in my current job, school, or sports I always give my all. I am also a very adaptive and easy going person.
+            </p>
         </section>
 
-        <section id="projects">
-            <h2>Featured Projects</h2>
+        <!-- Links -->
+        <section id="general-links">
+            <h2>Relevant Links</h2>
             <div class="grid">
-                
-                <!-- Project 1 -->
                 <article class="card">
-                    <h3>LLM Inference Web Application</h3>
-                    <div class="tags">
-                        <span class="tag">Angular</span>
-                        <span class="tag">Django REST</span>
-                        <span class="tag">llama.cpp</span>
-                    </div>
-                    <p>Designed and deployed a full-stack proof-of-concept application to interface with a locally hosted large language model. Handled RESTful API routing on the backend and dynamic UI updates on the frontend.</p>
+                    <h3>Socials</h3>
+                    <p>Social media profiles</p>
                     <div class="links">
-                        <a href="link-to-gist-or-pdf">View Architecture Diagram &rarr;</a>
+                        <a href="https://linkedin.com/in/jacob-demuth-26ab09266">LinkedIn &rarr;</a>
+                        <a href="https://github.com/demuth-j">Gitub &rarr;</a>
+                        <a href="https://jdisney.itch.io/">Itch.io &rarr;</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Papers</h3>
+                    <p>The published paper from my directed project</p>
+                    <div class="links">
+                        <a href="https://doi.org/10.48009/2_iis_2024_115">Capstone Paper &rarr;</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Certificates</h3>
+                    <p>Proof of my earned certificates</p>
+                    <div class="links">
+                        <a href="https://www.credly.com/badges/a880d07a-bd40-421c-8eb6-65aa66c21342/public_url">CompTIA Network+ &rarr;</a>
+                    </div>
+                </article>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Work Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Global Infrastructure Monitoring System</h3>
+                    <div class="tags">
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Monitoring Stack</span>
+                    </div>
+                    <p>A global monitoring system I built to monitoring all technical infrastructure (servers, printers, etc.) providing both alerts and long term usable data</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
                     </div>
                 </article>
 
-                <!-- Project 2 -->
                 <article class="card">
-                    <h3>Physics-Based Game Prototype</h3>
+                    <h3>Managing Proxmox Nodes Utilizing Terraform</h3>
                     <div class="tags">
-                        <span class="tag">Unity</span>
-                        <span class="tag">C#</span>
-                        <span class="tag">Game Design</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Proxmox</span>
+                        <span class="tag">Infrastructure as Code</span>
                     </div>
-                    <p>Engineered a 3D catching mechanic utilizing downward raycasts and custom character controller scripts to simulate sliding movement physics across low-friction environments.</p>
+                    <p>Converted existing proxmox nodes to be controlled using Terraform</p>
                     <div class="links">
-                        <a href="link-to-gist-with-csharp-code">View Spawner Script &rarr;</a>
+                        <a href="">View Details &rarr;</a>
                     </div>
                 </article>
 
-                <!-- Project 3 -->
+
                 <article class="card">
-                    <h3>Homelab Infrastructure & Dashboard</h3>
+                    <h3>Git Actions CI/CD Pipelines</h3>
+                    <div class="tags">
+                        <span class="tag">YAML</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <p>Worked on various CI/CD pipelines to do things like deploy images on k8 clusters or run automated scripts</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Approved Software Site</h3>
+                    <div class="tags">
+                        <span class="tag">Blazor</span>
+                        <span class="tag">Full Webstack Development</span>
+                        <span class="tag">Cloud Hosting</span>
+                    </div>
+                    <p>A wesbite I wrote in Blazor (C# + HTML + CSS) to help track approved software for employees globally</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Intune Automations</h3>
+                    <div class="tags">
+                        <span class="tag">Powershell</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">Intune</span>
+                    </div>
+                    <p>Built out various intune automations for things like onboarding machines and configuring kiosk devices</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Powershell Automations</h3>
+                    <div class="tags">
+                        <span class="tag">Powershell</span>
+                        <span class="tag">Microsoft</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <p>Built out various powershell script based automations such as creating security groups and retriving sharepoint site members</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>Kiosk Portal</h3>
+                    <div class="tags">
+                        <span class="tag">Blazor</span>
+                        <span class="tag">Full Webstack Development</span>
+                        <span class="tag">Cloud Hosting</span>
+                    </div>
+                    <p>A website that hosts links to various work related websites that is placed on all kiosks in North & South America divions</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+            </div>
+            <br>
+
+            <h2>Educational Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>A Comparison of Large Language Models for Assessing Patient Cognitive State</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Full Webstack Development</span>
+                    </div>
+                    <p>My directed project for my master's degree. My research was eventually published in a official scientific journal</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>NFL Game Predictions Utilizing Game and Non Game Related Features</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Full Webstack Development</span>
+                    </div>
+                    <p>A semester long directed project I did for one of my classes during my master's degree based on previous scientific papers</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Various Machine Learning Projects</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Neural Networks</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <p>I worked on various assignments and mini projects learning how to train and build ai models. One of my builds took first place in my class</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+            </div>
+            <br>
+
+            <h2>Personal Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>Homelab</h3>
                     <div class="tags">
                         <span class="tag">Proxmox</span>
                         <span class="tag">Docker</span>
-                        <span class="tag">Traefik</span>
+                        <span class="tag">Fullstack Infrastructure</span>
                     </div>
-                    <p>Configured a secure, self-hosted local network environment using hypervisors and LXC containers. Built a unified homepage dashboard integrating local DNS resolution, SMB file servers, and Tailscale routing.</p>
+                    <p>My homelab is what I use to learn new stuff as well as deploy things that make my life easier</p>
                     <div class="links">
-                        <a href="link-to-gist-with-docker-compose">View Docker Compose Stack &rarr;</a>
+                        <a href="">View Details &rarr;</a>
                     </div>
                 </article>
 
+                <article class="card">
+                    <h3>Videogames</h3>
+                    <div class="tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Fullstack Game Development</span>
+                    </div>
+                    <p>In a effort to improve my software development and do something fun I've joined various game jams where I've submitted games</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <h3>AI SaaS Product</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <p>A LLM based SaaS product I am actively working on. It is not just a ChatGPT chat bot/ChatGPT wrapper it is a custom setup</p>
+                    <div class="links">
+                        <a href="">View Details &rarr;</a>
+                    </div>
+                </article>
             </div>
         </section>
-
-        <section id="skills">
-            <h2>Technical Arsenal</h2>
-            <div class="skills-list">
-                <span>C# / Unity</span>
-                <span>Python</span>
-                <span>Angular / Django</span>
-                <span>PowerShell Scripting</span>
-                <span>Docker / Proxmox</span>
-                <span>Local AI (Ollama/llama.cpp)</span>
-                <span>Networking (Tailscale/Traefik)</span>
-            </div>
-        </section>
-
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>Get in touch: <a href="mailto:demuthj123@gmail.com" style="color: var(--accent-color); text-decoration: none;">demuthj123@gmail.com</a></p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">&copy; 2026 Jacob. Built with GitHub Pages.</p>
+        <p>Contact Me: <a href="mailto:demuthj123@gmail.com" style="color: var(--accent-color); text-decoration: none;">demuthj123@gmail.com</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">&copy; 2026 Jacob DeMuth | Built with GitHub Pages</p>
     </footer>
 
 </body>
