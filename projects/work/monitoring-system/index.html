@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob DeMuth | Monitoring System</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/demuthj-personal-site/style.css">
+    <link rel="icon" type="image/x-icon" href="/demuthj-personal-site/favicon.ico">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <a href="https://demuth-j.github.io/demuthj-personal-site/" class="nav-link">
+                <span class="arrow">←</span> Home
+            </a>
+        </div>
+    </nav>
+    <header class="blog-header">
+        <h1>Global Monitoring System</h1>
+        <p>A global infrastructure monitoring system I rolled out for the company</p>
+    </header>
+
+    <main>
+        <section class="project-overview">
+            <h2>Overview</h2>
+            <p>
+                A repeated issue at the company was servers or services stalling out and certificates expiring.
+                I implemented a global monitoring system to solve these issues and give the IT team more insight into what is happening.
+                I built the entire system myself.
+            </p>
+        </section>
+
+        <section class="tech-stack">
+            <h2>Architecture & Tech Stack</h2>
+            <ul>
+                <li><strong>Programming Language:</strong> Terraform & YAML</li>
+                <li><strong>Data Collection:</strong> Prometheus for collecting and thanos for storage</li>
+                <li><strong>Data Display:</strong> Grafana</li>
+                <li><strong>Hosting:</strong> Azure Kubernetes Cluster for hosting and Azure blob for long term storage</li>
+            </ul>
+        </section>
+
+        <section class="project-highlights">
+            <h2>Key Features</h2>
+            <br>
+            <h3>Global Monitoring of IT infrastructure</h3>
+            <p>This system was deployed per region allowing each team to have their own monitoring regardless of if a region is offline</p>
+            <br>
+            <h3>Security First Implementation</h3>
+            <p>This system was implemented with HTTPS and SSO as well as only necessary exposing down for services and ports</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jacob DeMuth | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
