@@ -131,3 +131,20 @@ footer {
     border-top: 1px solid var(--border-color);
     color: var(--text-secondary);
 }
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--accent-color);
+    text-decoration: none;
+    border: 1px solid var(--accent-color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: rgba(88, 166, 255, 0.1);
+    transform: translateY(-2px);
+}
