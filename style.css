@@ -125,6 +125,51 @@ h2 {
     border-radius: 6px;
 }
 
+/* Navigation Bar Styling */
+.main-nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333; /* Creates a clean separator line */
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    color: #a0a0a0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.back-link .arrow {
+    margin-right: 8px;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease;
+}
+
+.back-link:hover {
+    color: #4da6ff;
+}
+
+.back-link:hover .arrow {
+    transform: translateX(-4px);
+}
+
+
+.header-titles h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.header-titles p {
+    color: #888;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
