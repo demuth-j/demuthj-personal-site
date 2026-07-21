@@ -8,7 +8,53 @@
     <link rel="stylesheet" href="/demuthj-personal-site/style.css">
     <link rel="icon" type="image/x-icon" href="/demuthj-personal-site/favicon.ico">
 </head>
-<body> 
-    <h1>Jacob DeMuth</h1>
-    <p> DevOps Engineer | AI & Software Engineer | Game Developer </p>
+<body>
+
+    <header>
+        <nav>
+            <a href="/">← Back to Home Page</a>
+        </nav>
+        <h1>Homelab Infrastructure & Self-Hosted Services</h1>
+        <p>A old gaming computer turned into a fully functioning home server with local LLM, SMB file storage, and secure access</p>
+    </header>
+
+    <main>
+        <section class="project-overview">
+            <h2>Overview</h2>
+            <p>
+                The homelab itself features one server built from a old gaming computer. The hypervisor itself is proxmox based
+                with various LXCs for various services. This setup was created with a security first mindset so this includes things
+                like a firewall, vpn only access, isolation of containers, etc.
+            </p>
+        </section>
+
+        <section class="tech-stack">
+            <h2>Architecture & Tech Stack</h2>
+            <ul>
+                <li><strong>Hypervisor:</strong> Proxmox</li>
+                <li><strong>Firewall:</strong> OPNSense</li>
+                <li><strong>Networking:</strong> Traefik as a reverse proxy, paired with Technitium DNS for local domain resolution. Remote access is secured via Tailscale</li>
+                <li><strong>Orchestration:</strong> Docker & Docker Compose</li>
+            </ul>
+        </section>
+
+        <section class="project-highlights">
+            <h2>Key Features</h2>
+            
+            <h3>Unified Dashboard</h3>
+            <p>To monitor the environment and have a "homepage", I configured a custom dashboard with links and statuses for my services I host. I utilized homepage to help build this out</p>
+
+            <h3>Network Routing & Security</h3>
+            <p>Rather than exposing ports directly, all web traffic routes through Traefik. By combining Traefik with static IP routing in Technitium DNS, every Proxmox container and Docker service resolves securely via clean domain names. There is also a OPNsense firewall that all traffic runs through</p>
+            
+            <h3>Local AI</h3>
+            <p>Utilizing GPU passthrough I am able to selfhost my own ai models as well as support training local models on the server allowing my regular pc to use its own graphics card for other purposes</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jacob. All rights reserved.</p>
+    </footer>
+
 </body>
+</html>
